@@ -15,8 +15,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.Assertion;
 
-import com.tutorialsninja.automation.framework.Elements;
-import com.tutorialsninja.automation.pages.ForgottenPasswordPage;
+
 
 import org.openqa.selenium.support.ui.Select;
 
