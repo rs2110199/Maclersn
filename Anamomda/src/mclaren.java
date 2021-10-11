@@ -28,7 +28,7 @@ public class mclaren {
          String application = "http://omayo.blogspot.com/";
 	     
          
-		@BeforeClass
+		@BeforeTest
 		public  void testclass() {
 		
           System.setProperty("webdriver.chrome.driver", "C:\\Users\\om\\Desktop\\93\\chrome33\\chromedriver.exe");
@@ -178,13 +178,25 @@ public class mclaren {
 	                	  */
 	                	  
 	                	  
+	                	 
+	                	  
+	                  }
+	                  
+	                  @Test(priority=11)
+	                  public void uploadfile() throws InterruptedException {
+	                	/*  ScrollBt.scrollBy(); */
+	                	  
+	     WebElement  upload_file =driver.findElement(By.xpath("//input[@id='uploadfile']"));
+	     upload_file.sendKeys("C:\\Users\\om\\Documents\\noman123.csv");
+	     Thread.sleep(15000);
+	                	  
 	                	  
 	                  }
 	                  
 	            
               
               
-	      @AfterClass
+	      @AfterTest
 	      public void test3() throws InterruptedException {
 	       driver.close();
 

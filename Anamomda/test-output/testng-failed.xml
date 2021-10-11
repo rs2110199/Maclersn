@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mclaren">
+      <class name="ScrollBt">
         <methods>
-          <include name="selectmultpleoption"/>
-          <include name="test3"/>
-          <include name="textverification"/>
-          <include name="doubleclick"/>
-          <include name="iframe"/>
-          <include name="delaydropdown"/>
-          <include name="testclass"/>
+          <include name="Calender"/>
         </methods>
-      </class> <!-- mclaren -->
+      </class> <!-- ScrollBt -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
